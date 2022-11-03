@@ -22,6 +22,7 @@
   }
 
   #menu{
+    font-family: 'Lato', sans-serif;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -66,17 +67,14 @@
     background-size: 110vmax;
     opacity: 0.30;
     background-attachment: fixed;
+
   
     transition: 800ms ease;
     background-size: 800ms ease;
     background-position: 800ms ease;
   }
-  
-  #menu-items:hover ~ #menu-background-image{
+
+  #menu-items:hover ~ .menu-background-image {
     background-size: 100vmax;
     opacity: 0.10;
-  }
-  
-  .menu-background-image-bg{
-    opacity: 0.20;
   }

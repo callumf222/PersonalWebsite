@@ -12,6 +12,7 @@
   }
   
   .Projects{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
     position: absolute;
     display: flex;
@@ -23,6 +24,7 @@
   
   .hProjects{
     font-size: 3vw;
+    font-family: 'Oswald', sans-serif;
   }
   
   .flip-card {

@@ -9,11 +9,20 @@
   }
 
 .backgroundContact{  
-    background-image: url('https://images.unsplash.com/photo-1544411047-c491e34a24e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvbXB1dGVyJTIwZGFya3xlbnwwfDB8MHx8&auto=format&fit=crop&w=600&q=60');
-    background-position: center;
+    background-image: url("https://images.unsplash.com/photo-1523793740499-83d43b75a2b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-position: center top;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100vmax;
+    opacity: 0.3;
 
     height: 100%;
     width: 100%;
-    background-repeat: no-repeat;
+    
+  }
+
+  .hContact{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    font-size: 3vw;
   }

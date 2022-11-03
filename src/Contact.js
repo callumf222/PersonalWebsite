@@ -5,13 +5,16 @@ export default function Contact() {
   return (
     <>
 
-      <div className='backgroundContact'>
+      
         <section className='Contact'>
           <div>
-            <h1 className='heading'>Contact</h1>
+            
+            <h1 className='hContact'>Contact</h1>
           </div>
+          <div className='backgroundContact'></div>
+
         </section>
-      </div>
+      
 
     </>
   )

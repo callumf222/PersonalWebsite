@@ -11,12 +11,15 @@ export default function AboutMe() {
             <h1 className='hAboutMe'>About Me</h1>
             <div className='pAboutMe'>
 
-              <p>Hello my name is, Callum.</p>
+              <p>Hello, my name is Callum.</p>
 
-              <p>I am currently studing Computer Science at the University of Portsmouth. 
-              Programming, software engineering and cyber security are the areas that most intrest me the most.</p>
+              <p>I am currently studying Computer Science at the University of Portsmouth; subject areas that particularly interest me include programming, software engineering and cyber security.</p>
+               
+               
+               <p>Throughout my first year I built on my communication and teamwork skills while leadinging a number of group projects.</p>
               
-              <p>I enjoy playing games, working within teams and improving skills within design.</p>
+              
+              <p>In my spare time I enjoy playing games, watching football and coding; comfortable in Java, Python, HTML, CSS, Javascript, Dart, C# and SQL.</p>
             
               <p>You can check out some of my projects and work below, as I learn and improve as a developer.</p>
 

@@ -8,9 +8,9 @@ export default function Contact() {
       
         <section className='Contact'>
           <div>
-            
             <h1 className='hContact'>Contact</h1>
           </div>
+
           <div className='backgroundContact'></div>
 
         </section>

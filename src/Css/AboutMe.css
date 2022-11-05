@@ -27,12 +27,14 @@
     top: 25%;
     left: 30%;
     font-size: 1.3vw;
+    line-height: 150%;
   }
   
   .profilePicture{
     background-image: url('https://images.unsplash.com/photo-1517508342920-2166aef998c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJlJTIwcm9ja3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60');
     height: 55%;
     width: 20%;
+    
     border-radius: 50%;
     background-position: 50%;
     background-size: 150%;

@@ -18,6 +18,8 @@
 
     height: 100%;
     width: 100%;
+
+    z-index: 0;
     
   }
 
@@ -25,4 +27,5 @@
     font-family: 'Oswald', sans-serif;
     position: absolute;
     font-size: 3vw;
+    z-index: 1;
   }

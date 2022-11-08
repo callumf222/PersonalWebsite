@@ -35,18 +35,15 @@
     transition: all 1s;*/
   }
 
-  /*.PAboutMeShow{
-    opacity: 1;
-  }
-
-  .fade-in {
+  
+  /*.fade-in {
     transition: opacity 1s ease;
-}
+  }
 
 .fade-out {
     opacity: 0;
     transition: opacity 1s ease;
-}*/
+  }*/
   
   .profilePicture{
     background-image: url(./profilePic.jpg);

@@ -11,7 +11,6 @@ import './Css/AboutMe.css';
 import './Css/Projects.css';
 import './Css/Contact.css';
 
-
 function App() {
   return (
     <>

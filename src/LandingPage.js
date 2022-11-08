@@ -6,9 +6,9 @@ export default function Nav() {
 
     <div id="menu">
       <div id="menu-items">
-        <a href ="/" className="menu-item">// About me</a>
-        <a href ="/" className="menu-item">// Projects</a>
-        <a href ="/" className="menu-item">// Contact</a>
+        <a href ="#AboutMePage" className="menu-item">// About me</a>
+        <a href ="#ProjectPage" className="menu-item">// Projects</a>
+        <a href ="#ContactPage" className="menu-item">// Contact</a>
         <a href ="https://github.com/callumf222" className="menu-item">// Github</a>
       </div>
       <div className='menu-background-image'> </div>

@@ -5,7 +5,8 @@ export default function AboutMe() {
   return (
     <>
 
-    
+
+      <a id='AboutMePage'></a>
       <section className='AboutMe'>
           <div className='profilePicture'></div>
             <h1 className='hAboutMe'>About Me</h1>

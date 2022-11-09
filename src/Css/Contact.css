@@ -17,6 +17,8 @@
     z-index: 1;
   }
 
-  .githubIcon{
-    position: absolute;
-  }
+ .icons{
+    display: inline;
+    padding: 6%;
+    border: red solid 2px;
+ }

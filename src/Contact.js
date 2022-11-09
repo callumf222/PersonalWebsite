@@ -1,7 +1,8 @@
 import React from 'react'
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faCoffee} from '@fortawesome/free-solid-svg-icons';
-import {} from '@fortawesome/fontawesome-svg-core'
+import { FaGithub,FaEnvelope,FaLinkedin} from 'react-icons/fa'
+import { IconContext } from "react-icons";
+import { Link } from '@mui/icons-material';
+
 
 export default function Contact() {
   return (
@@ -9,13 +10,23 @@ export default function Contact() {
 
         <a id='ContactPage'></a>
         <section className='Contact'>     
+          <div className='backgroundContact'>
 
-          <h1 className='hContact'>Contact Me!</h1>
+            <h1 className='hContact'>Contact Me!</h1>
 
-          <FontAwesomeIcon icon={"fa-brands fa-youtube"} />
-          <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon>
+            <IconContext.Provider value={{className:"icons", color:"blue", size:"3em"}}>
+              <a href='https://github.com/callumf222'>
+                <FaGithub/>
+              </a>
+              <a href= "mailto:callumfry57@gmail.com ">
+                <FaEnvelope/>
+              </a>
+              <a href='https://www.linkedin.com/in/callum-fry-64bab91a2/'>
+                <FaLinkedin/>
+              </a>
+            </IconContext.Provider>
 
-          <div className='backgroundContact'></div>
+          </div>
 
         </section>
       

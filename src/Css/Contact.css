@@ -1,13 +1,10 @@
 .Contact{
     background-color: #EEE1C6;
     position: absolute;
-    display: flex;
     flex-direction: column;
     align-items: center;
     min-width: 100%;
     height: 30vh;
-
-     
   }
 
   .hContact{
@@ -15,10 +12,41 @@
     font-family: 'Oswald', sans-serif;
     font-size: 3vw;
     z-index: 1;
+    text-align: center;
   }
 
- .icons{
-    display: inline;
-    padding: 6%;
-    border: red solid 2px;
- }
+.iconHolder{
+  border: solid green 2px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.icons{
+  display: block;
+}
+
+.githubIcon{
+  color: #000;
+  margin-right: 5%;
+}
+
+.emailIcon{
+  color: #a40000;
+  margin-right: 5%;
+}
+
+.linkedinIcon{
+  color: #0077B5;
+  margin-right: 5%;
+}
+
+.instagramIcon{
+  color: purple;
+  margin-right: 5%;
+}
+
+.facebookIcon{
+  color: blue;
+  margin-right: 5%;
+}

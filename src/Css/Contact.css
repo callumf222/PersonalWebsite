@@ -16,10 +16,8 @@
   }
 
 .iconHolder{
-  border: solid green 2px;
   display: flex;
-  align-items: center;
-  width: 50%;
+  justify-content: center;
 }
 
 .icons{
@@ -28,25 +26,24 @@
 
 .githubIcon{
   color: #000;
-  margin-right: 5%;
+  padding-right: 4%;
 }
 
 .emailIcon{
   color: #a40000;
-  margin-right: 5%;
+  padding-right: 4%;
 }
 
 .linkedinIcon{
   color: #0077B5;
-  margin-right: 5%;
+  padding-right: 4%;
 }
 
 .instagramIcon{
   color: purple;
-  margin-right: 5%;
+  padding-right: 4%;
 }
 
 .facebookIcon{
   color: blue;
-  margin-right: 5%;
 }

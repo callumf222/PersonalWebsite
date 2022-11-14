@@ -26,6 +26,8 @@
     font-size: 3vw;
     font-family: 'Oswald', sans-serif;
   }
+
+  
   
   .flip-card {
     background-color: transparent;
@@ -60,7 +62,9 @@
   }
   
   .flip-card-front {
-    background-color: #bbb;
+    background-image: url('https://images.unsplash.com/photo-1617839625591-e5a789593135?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29tcHV0aW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: 100%;
+    
     color: black;
   }
   

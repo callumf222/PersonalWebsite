@@ -24,7 +24,7 @@ export default function Project() {
             <div class="flip-card-back">
               <h1>My Project</h1>
               <p>Desc</p>
-              <p>Link</p>
+              <a href='/'>Link</a>
             </div>
           </div>
         </div>
@@ -37,7 +37,7 @@ export default function Project() {
             <div class="flip-card-back2">
               <h1>My Project 2</h1>
               <p>Desc</p>
-              <p>Link</p>
+              <a href='/'>Link</a>
             </div>
           </div>
         </div>
@@ -50,7 +50,7 @@ export default function Project() {
             <div class="flip-card-back3">
               <h1>My Project 3</h1>
               <p>Desc</p>
-              <p>Link</p>
+              <a href='/'>Link</a>
             </div>
           </div>
         </div>

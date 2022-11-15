@@ -34,8 +34,7 @@
     border: red 2px solid;
     height: 90%;
     width: 100%;
-    display: flex;
-    justify-content: center;
+    position: relative;
   }
 
   
@@ -46,6 +45,9 @@
     height: 60%;
     perspective: 1000px;
 
+    position: absolute;
+    bottom: 0;
+    left: 0;
   }
   
   .flip-card-inner {
@@ -90,7 +92,7 @@
     height: 60%;
     perspective: 1000px;
 
-   
+    position: absolute;
   }
   
   .flip-card-inner2 {
@@ -133,6 +135,9 @@
     height: 60%;
     perspective: 1000px;
    
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
   
   .flip-card-inner3 {

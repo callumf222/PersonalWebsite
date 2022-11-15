@@ -11,9 +11,9 @@
     background-image: url(./wave-white.svg);
   }
 
-  .background{
+  .backgroundProjects{
     color: white;
-    height: 60vh;
+    height: 90vh;
   }
   
   .Projects{
@@ -30,145 +30,39 @@
     font-family: 'Oswald', sans-serif;
   }
 
-  .projectCards{
-    border: red 2px solid;
-    height: 90%;
-    width: 100%;
-    position: relative;
+  .projectImages{
+    border: red solid 2px;
+    height: 99%;
+    width: 99.8%;
+
+    display: flex;
+    justify-content: center;
+
   }
 
-  
-
-  .flip-card {
-    background-color: transparent;
-    width: 20%;
-    height: 60%;
-    perspective: 1000px;
-
-    position: absolute;
-    bottom: 0;
-    left: 0;
-  }
-  
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
+  .projectImage1{
     height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  
-  .flip-card-front, .flip-card-back {
-    position: absolute;
     width: 100%;
+    background-repeat: no-repeat;
+    background-image: url('https://images.unsplash.com/photo-1601158935942-52255782d322?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fGJyYW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+  }
+  .projectImage2{
     height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url('https://images.unsplash.com/photo-1529612700005-e35377bf1415?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTB8fGJyYW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+
   }
-  
-  .flip-card-front {
-    background-image: url('https://images.unsplash.com/photo-1617839625591-e5a789593135?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29tcHV0aW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
-    
-    color: black;
-  }
-  
-  .flip-card-back {
-    background-color: black;
-    color: white;
-    transform: rotateY(180deg);
+  .projectImage3{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url('https://images.unsplash.com/photo-1618898909019-010e4e234c55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzR8fGJyYW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
   }
 
 
   
-  .flip-card2 {
-    background-color: transparent;
-    width: 20%;
-    height: 60%;
-    perspective: 1000px;
 
-    position: absolute;
-  }
   
-  .flip-card-inner2 {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  .flip-card2:hover .flip-card-inner2 {
-    transform: rotateY(180deg);
-  }
-  
-  
-  .flip-card-front2, .flip-card-back2 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  
-  .flip-card-front2 {
-    background-image: url('https://images.unsplash.com/photo-1617839625591-e5a789593135?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29tcHV0aW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
-    color: black;
-  }
-  
-  .flip-card-back2 {
-    background-color: black;
-    color: white;
-    transform: rotateY(180deg);
-  }
 
-
-  .flip-card3 {
-    background-color: transparent;
-    width: 20%;
-    height: 60%;
-    perspective: 1000px;
-   
-    position: absolute;
-    bottom: 0;
-    right: 0;
-  }
   
-  .flip-card-inner3 {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  .flip-card3:hover .flip-card-inner3 {
-    transform: rotateY(180deg);
-  }
-  
-  
-  .flip-card-front3, .flip-card-back3 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  
-  .flip-card-front3 {
-    background-image: url('https://images.unsplash.com/photo-1617839625591-e5a789593135?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29tcHV0aW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
-    color: black;
-  }
-  
-  .flip-card-back3 {
-    background-color: black;
-    color: white;
-    transform: rotateY(180deg);
-  }

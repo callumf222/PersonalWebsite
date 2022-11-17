@@ -13,11 +13,13 @@ export default function Project() {
               <h1 className='hProjects'>My Projects</h1>
           </section>
 
-          <div className='projectImages'>
-            <a className='projectImage1'></a>
-            <a className='projectImage2'></a>
-            <a className='projectImage3'></a>
-          </div>
+             <div className='projectImages'>
+                <a href='/' className='projectImage1'></a>
+                <a href='/' className='projectImage2'></a>
+                <a href='/' className='projectImage3'></a>
+              </div>
+
+              
 
     
         </div>

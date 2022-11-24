@@ -52,12 +52,17 @@
 
   @media only screen and (max-width: 600px) {
       .AboutMe{
-        height: 90vh;
+        height: 111vh;
       }
 
       .pAboutMe{
         font-size: 1rem;
         width: 90%;
+      }
+
+      .profilePicture{
+        height: 300px;
+        width: 300px;
       }
 
   }

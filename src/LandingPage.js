@@ -11,13 +11,16 @@ export default function Nav() {
         <a href ="#ContactPage" className="menu-item">// Contact</a>
         <a href ="https://github.com/callumf222" className="menu-item">// Github</a>
       </div>
+
+      <div className="Main-Text"> 
+          <h1 className='Name'>Callum Fry</h1>
+          <h2 className='Subtext'>callumfry57@gmail.com</h2>
+      </div>
+
       <div className='menu-background-image'> </div>
     </div>
 
-    <div id="Main-Text"> 
-          <h1 className='Name'>Callum Fry</h1>
-          <h2 className='Subtext'>callumfry57@gmail.com</h2>
-    </div>
+    
 
     </>
   )

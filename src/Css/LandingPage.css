@@ -1,3 +1,4 @@
+
 .Name{
     font-family: 'Oswald', sans-serif;
     width: 60%;
@@ -26,6 +27,7 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    
   }
   
   
@@ -65,13 +67,14 @@
   
     background-position: center top;
     background-size: 110vmax;
-    opacity: 0.30;
+    opacity: 0.6;
     background-attachment: fixed;
 
   
     transition: 800ms ease;
     background-size: 800ms ease;
     background-position: 800ms ease;
+    background-color: #202020;
   }
 
   #menu-items:hover ~ .menu-background-image {

@@ -22,13 +22,13 @@
   }
   
   .pAboutMe{
-    text-align: left;
+    text-align: justify;
     word-wrap: break-word;
-    width: 60%;
     position: absolute;
+    width: 60%;
     top: 25%;
     left: 30%;
-    font-size: 1.4vw;
+    font-size: 1.6em;
     line-height: 150%;
 
     
@@ -47,5 +47,19 @@
     left: 5%;
     top: 25%;
   }
+
+  @media only screen and (max-width: 600px) {
+      .AboutMe{
+        height: 50vh;
+      }
+
+
+      .profilePicture{
+        height: 200px;
+        width: 200px;
+      }
+
+  }
+
 
 

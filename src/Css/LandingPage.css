@@ -81,3 +81,10 @@
     background-size: 100vmax;
     opacity: 0.10;
   }
+
+  @media only screen and (max-width: 600px) {
+   #menu{
+      height: 72vh;
+   }
+
+}

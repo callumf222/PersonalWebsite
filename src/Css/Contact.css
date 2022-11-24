@@ -23,6 +23,7 @@
 .githubIcon{
   color: #000;
   margin-right: 4%;
+  size: 3vw;
 }
 
 .emailIcon{
@@ -42,4 +43,15 @@
 
 .facebookIcon{
   color: blue;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .Contact{
+    height: 20vh;
+  }
+
+
+  
+
 }

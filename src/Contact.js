@@ -16,7 +16,7 @@ export default function Contact() {
 
             <div className='iconHolder'>
 
-              <IconContext.Provider value={{className:"icons", size:"5em"}}>
+              <IconContext.Provider value={{className:"icons", size:"5vw"}}>
                 <a className='githubIcon' href='https://github.com/callumf222'>
                   <FaGithub/>
                 </a>

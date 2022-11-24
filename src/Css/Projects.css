@@ -45,15 +45,18 @@
     width: 100%;
     position: absolute;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
   }
 
   .projectIMG {
       position: relative;
       height: 100%;
-      width: 25%;
-      display: flex;
+      width: 20%;
       transition: 350ms;
       justify-content: center;
+      display: flex;
   }
 
   .projectImages:hover >.projectIMG{
@@ -121,6 +124,14 @@
     -webkit-filter: blur(3px);
   }
 
+  @media only screen and (max-width: 600px) {
+   .projectIMG{
+    
+    
+   }
+
+
+  }
 
   
 

@@ -138,8 +138,10 @@
     height: 155vh;
   }
    
-  .hProjects{
-    
+  .spacer{
+    width: 100%;
+    height: 10%;
+
   }
 
 

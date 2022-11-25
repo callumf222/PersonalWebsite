@@ -23,7 +23,6 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    
   }
   
   
@@ -81,13 +80,34 @@
   @media only screen and (max-width: 600px) {
     .Main-Text{
       left: 50%;
-      top: 35%;
-      transform: translate(-50%, -50%);
+      top: 40%;
+      transform: translate(-50%, -50%);     
+    }
+
+    .Name{
+      font-size: 4rem;
+    }
+    
+    .Subtext{
+      font-size: 2rem;
     }
 
 
    #menu{
       height: 72vh;
    }
+
+   #menu-items{
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%); 
+    width: 100%;
+   }
+
+   .menu-item{
+    display: inline-block;
+    padding: clamp(0.25rem, 0.5vw, 1rem) 1rem;
+    font-size: 0.9rem;
+  }
 
 }

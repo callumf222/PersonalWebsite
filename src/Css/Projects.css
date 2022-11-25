@@ -37,6 +37,7 @@
     text-align: center;
     top: 5%;
     font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
   }
 
   .projectImages {
@@ -127,7 +128,7 @@
   @media only screen and (max-width: 600px) {
    .projectIMG{
     top: 10%;
-    width: 95%;
+    width: 90%;
    }
 
    .projectImages{

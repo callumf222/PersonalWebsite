@@ -36,6 +36,7 @@
     width: 60%;
     font-size: 1.6rem;
     line-height: 150%;
+
   }
 
   
@@ -56,7 +57,7 @@
       }
 
       .pAboutMe{
-        font-size: 1rem;
+        font-size: 0.9rem;
         width: 90%;
       }
 

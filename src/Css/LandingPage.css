@@ -92,7 +92,6 @@
       font-size: 2rem;
     }
 
-
    #menu{
       height: 72vh;
    }
@@ -106,8 +105,10 @@
 
    .menu-item{
     display: inline-block;
-    padding: clamp(0.25rem, 0.5vw, 1rem) 1rem;
     font-size: 0.9rem;
+    width: 25%;
+    padding: 0;
+    text-align: center;
   }
 
 }

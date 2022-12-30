@@ -47,7 +47,20 @@
 
 
 @media only screen and (max-width: 600px) {
-  .Contact{
-    height: 30rem;
+
+  .githubIcon{
+    margin-right: 2%;
   }
+  .emailIcon{
+    margin-right: 2%;
+  }
+  
+  .linkedinIcon{
+    margin-right: 2%;
+  }
+  
+  .instagramIcon{
+    margin-right: 2%;
+  }
+
 }

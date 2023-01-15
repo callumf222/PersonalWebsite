@@ -15,11 +15,11 @@ export default function Project() {
          
 
           <div className='projectImages'>
-              <div className='projectIMG'> <a href='/' className='projectImage1' alt='personal website'> </a> <h2 className='projectName'>Personal Website</h2></div>
-              <div className='projectIMG'> <a href='/' className='projectImage2' alt='scheduling book'> </a> <h2 className='projectName'>Scheduling App<br></br>coming soon</h2> </div>
+              <div className='projectIMG'> <a href='https://github.com/callumf222/PersonalWebsite' className='projectImage1' alt='personal website'> </a> <h2 className='projectName'>Personal Website</h2></div>
+              <div className='projectIMG'> <a href='https://github.com/callumf222/QuoteGenerator' className='projectImage2' > </a> <h2 className='projectName'>Quote Generator</h2> </div>
               <div className='projectIMG'> <a href='/' className='projectImage3' alt='two people playing a game'> </a> <h2 className='projectName'>Gaming Site<br></br>coming soon</h2></div>
-              <div className='projectIMG'> <a href='/' className='projectImage4' alt='Netflix on laptop'> </a> <h2 className='projectName'>Netflix Clone<br></br>coming soon</h2></div>
-              <div className='projectIMG'> <a href='/' className='projectImage5'> </a> <h2 className='projectName'>New Ideas<br></br>coming soon</h2></div>
+              <div className='projectIMG'> <a href='https://github.com/callumf222/FlutterApp' className='projectImage4' > </a> <h2 className='projectName'>Decision Map Game</h2></div>
+              <div className='projectIMG'> <a href='/' className='projectImage5' alt='scheduling book'> </a> <h2 className='projectName'>Scheduling App<br></br>coming soon</h2></div>
           </div>
 
     

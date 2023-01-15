@@ -67,6 +67,11 @@
   .projectImages:hover > .projectIMG:hover{
     opacity: 1;
   }
+
+  .projectIMG:hover > .projectName{
+    transition: all 1s ease;
+    opacity: 0;
+  }
  
   .projectImage1{
     height: 100%;
@@ -82,7 +87,7 @@
     width: 100%;
     text-decoration: none;
     background-repeat: no-repeat;
-    background-image: url(./quoteGeneratorPage.jpg);
+    background-image: url("https://images.unsplash.com/photo-1562776903-cc60d622df72?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njh8fHF1b3RlfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
     background-size: cover;
   }
   
